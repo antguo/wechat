@@ -1,0 +1,8 @@
+<!--pages/index/index.wxml-->
+<view>
+  <!-- <view  class="item-search">
+    <input class="search"></input>
+  </view>
+  <view>icon</view> -->
+  <van-button type="primary">按钮</van-button>
+</view>

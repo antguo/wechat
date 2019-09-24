@@ -1,0 +1,47 @@
+/* pages/start/start.wxss */
+.container{
+  height: 100vh;
+  background-color: red;
+}
+.swiper-container{
+  width: 100vw;
+  height: 100vh;
+}
+.swiper_box{
+  width: 100vw;
+  height: 100vh;
+}
+swiper-item image {
+  width: 100%;
+  height: 100vh;
+  display: inline-block;
+  overflow: hidden;
+}
+.swiper-container .dots{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50rpx;
+  display: flex;
+  justify-content: center;
+}
+.swiper-container .dots .dot {
+  margin: 0 8rpx;
+  width: 14rpx;
+  height: 14rpx;
+  background: #fff;
+  border-radius: 50%;
+  transition: all .6s;
+  opacity: .5;
+}
+.swiper-container .dots .dot.active{
+  width: 14rpx;
+  opacity: 1;
+}
+.enter-btn{
+  display: block;
+  background-color: #ffffff;
+  color: #f27360;
+  border-radius: 50rpx;
+  box-shadow: 0 3rpx 0 5rpx rgb(255, 255, 255, 0.3);  
+}

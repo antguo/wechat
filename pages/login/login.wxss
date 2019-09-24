@@ -1,0 +1,26 @@
+/* pages/login/login.wxss */
+.navBar{
+  display: flex;
+  justify-content: flex-start;
+  height: 88px;
+  background-color: grey
+}
+.container{
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: blue;
+}
+.header{
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+.image_size{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+/* 颜色class*/
+.red{
+  background-color: red;
+}

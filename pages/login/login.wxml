@@ -1,0 +1,14 @@
+<view class="navBar">
+  <view>1</view>
+  <view>2</view>
+</view>
+<view  class="container">
+  <!-- <image class="image_size" src="../images/cat.jpeg"></image> -->
+    <!-- <view class="header red">1</view>
+    <view class="header red">2</view>
+    <view class="header red">3</view> -->
+</view>
+<view  class="footer"></view>
+    
+
+

@@ -48,7 +48,9 @@ Page({
    */
   gotToIndex: function (e) {
     // 进入首页
-    console.log(2233333)
+    wx.switchTab({
+      url: '/pages/index/index',
+    })
   },
   /**
    * 生命周期函数--监听页面隐藏
